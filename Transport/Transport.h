@@ -1,7 +1,10 @@
-﻿#include <iostream>
-#include "DLLExport.h"
+﻿#pragma warning (disable : 4251 )
+#include <iostream>
+
 #ifndef _TRANSPORT_H_
 #define _TRANSPORT_H_
+
+#include "DLLExport.h"
 
 using std::string;
 
@@ -16,7 +19,7 @@ protected:
 public:
     virtual void RacingTime(int distance) = 0;
     string GetName();
-    double GetResultTime();
+    virtual double GetResultTime() = 0;
     bool operator > (const Transport& other);
 };
 

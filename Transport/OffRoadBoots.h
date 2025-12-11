@@ -1,7 +1,7 @@
-﻿#include "Terrestrial.h"
-
-#ifndef _OFFROADBOOTS_H_
+﻿#ifndef _OFFROADBOOTS_H_
 #define _OFFROADBOOTS_H_
+
+#include "Terrestrial.h"
 
 class THERACINGDLL_API OffRoadBoots : public Terrestrial
 {

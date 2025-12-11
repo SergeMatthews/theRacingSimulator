@@ -1,7 +1,7 @@
-﻿#include "Aerial.h"
-
-#ifndef _FLYINGCARPET_H_
+﻿#ifndef _FLYINGCARPET_H_
 #define _FLYINGCARPET_H_
+
+#include "Aerial.h"
 
 class THERACINGDLL_API FlyingCarpet : public Aerial
 {

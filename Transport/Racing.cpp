@@ -1,4 +1,5 @@
-﻿#include "Racing.h"
+﻿#pragma warning (disable : 4251 )
+#include "Racing.h"
 
 Racing::Racing()
 {

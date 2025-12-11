@@ -1,7 +1,7 @@
-﻿#include "Terrestrial.h"
-
-#ifndef _FAST_CAMEL_H_
+﻿#ifndef _FAST_CAMEL_H_
 #define _FAST_CAMEL_H_
+
+#include "Terrestrial.h"
 
 class THERACINGDLL_API FastCamel : public Terrestrial
 {

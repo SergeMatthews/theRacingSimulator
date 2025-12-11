@@ -1,7 +1,7 @@
-﻿#include "Aerial.h"
-
-#ifndef _BROOM_H_
+﻿#ifndef _BROOM_H_
 #define _BROOM_H_
+
+#include "Aerial.h"
 
 class THERACINGDLL_API Broom : public Aerial
 {

@@ -1,7 +1,7 @@
-﻿#include "Terrestrial.h"
-
-#ifndef _CENTAUR_H_
+﻿#ifndef _CENTAUR_H_
 #define _CENTAUR_H_
+
+#include "Terrestrial.h"
 
 class THERACINGDLL_API Centaur : public Terrestrial
 {

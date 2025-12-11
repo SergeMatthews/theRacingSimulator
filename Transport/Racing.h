@@ -1,9 +1,9 @@
 ﻿#include <iostream>
 
-#include "AllTransport.h"
-
 #ifndef _RACING_H_
 #define _RACING_H_
+
+#include "AllTransport.h"
 
 using std::cout;
 using std::cin;

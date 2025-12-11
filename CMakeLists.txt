@@ -8,7 +8,7 @@ if (POLICY CMP0141)
 endif()
 
 project ("theRacingDLLCMake")
-set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
+
 set(HEADERS "Transport/DLLExport.h"
 			"Transport/AllTransport.h" 
 			"Transport/Racing.h" 

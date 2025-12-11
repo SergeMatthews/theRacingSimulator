@@ -1,7 +1,7 @@
-﻿#include "Aerial.h"
-
-#ifndef _EAGLE_H_
+﻿#ifndef _EAGLE_H_
 #define _EAGLE_H_
+
+#include "Aerial.h"
 
 class THERACINGDLL_API Eagle : public Aerial
 {
