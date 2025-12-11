@@ -77,18 +77,7 @@ void Racing::Registration()
             cout << "Гонка для наземного и воздушного транспорта. Расстояние: " << distance << endl;
             break;
         }
-        if (competitorsNumber)
-        {
-            cout << "Зарегистрированные транспортные средства: ";
-            for (int i = 0; i < competitorsNumber; ++i)
-            {
-                cout << competitors[i]->GetName();
-                if (i != (competitorsNumber - 1))
-                    cout << ", ";
-            }
-            cout << endl;
-        }
-
+        ShowCompetitors();
         ShowList();
         do {
             cout << "Выберите транспорт или 0 для окончания процесса регистрации: ";
@@ -98,7 +87,6 @@ void Racing::Registration()
         } while (actionNumber < 0 && actionNumber > 7);
         if (!actionNumber)
         {
-            //ActionSelection();
             return;
         }
         else
@@ -298,11 +286,14 @@ void Racing::ShowCompetitors()
 {
     if (competitorsNumber)
     {
+        cout << "Зарегистрированные транспортные средства: ";
         for (int i = 0; i < competitorsNumber; ++i)
         {
-            cout << competitors[i]->GetName() << ", ";
+            cout << competitors[i]->GetName();
+            if (i != (competitorsNumber - 1))
+                cout << ", ";
         }
-        cout << "зарегистрированы" << endl;
+        cout << endl;
     }
 }
 void Racing::ShowResult()
